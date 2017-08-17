@@ -1,0 +1,66 @@
+
+
+body {
+background-color: #343434;
+margin-top: 150px;
+}
+h1 {
+  display: flex;
+  color: white;
+  width: 327px;
+  font-size: 60px;
+  background: none;
+  justify-content: center;
+  margin: auto;
+}
+.wrapper {
+  width: 327px;
+  height: 403px;
+  background: black;
+  border-radius: 3px;
+  margin: auto;
+  display: flex;
+}
+.calculator {
+  width: 100%;
+  height: 100%;
+}
+section {
+  width: calc(100%-10px);
+  height: 20%;
+  margin-right: none;
+  display: flex;
+}
+
+button {
+  width: 25%;
+  height: 100%;
+  background-color: #babab9;
+  color: white;
+  font-size: 30px;
+}
+
+button:hover {
+  background-color: #d1d1d1;
+  color: black;
+}
+
+#divide, #multiply, #minus, #plus{
+  background-color: #ff8a01
+}
+#clear{
+  background-color: #ff0000;
+}
+
+#display {
+  font-size: 30px;
+  width: calc(75% - 8px);
+  height: 100%;
+  padding-right: 6px;
+  text-align: right;
+  display: flex;
+  background-color: white;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+}
